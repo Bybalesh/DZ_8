@@ -5,7 +5,7 @@ import org.openqa.selenium.Keys;
 import ru.netology.bank.data.DataHelper;
 
 import java.util.Objects;
-
+va -jar-
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 
