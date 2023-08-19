@@ -15,10 +15,12 @@ public class AuthorizationCodePage {
     }
 
     public void verifyPageVisible() {
+
         codeField.shouldBe(visible);
     }
 
     public void verifyErrorNotificationVisibility() {
+
         errorNotification.shouldBe(visible);
     }
 

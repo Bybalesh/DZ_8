@@ -10,7 +10,6 @@ public class DataHelper {
     private DataHelper() {
 
     }
-
     @Value
     public static class AuthInfo {
         private String login;

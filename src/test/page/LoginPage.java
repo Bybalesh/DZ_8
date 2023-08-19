@@ -47,7 +47,7 @@ public class LoginPage {
         }
     }
     public void clearFormPassword() {
-        while(!Objects.equals(passwordField.getValue(), "")){
+        while(!Objects.equals(passwordField.getValue(), " ")){
         passwordField.sendKeys(Keys.BACK_SPACE);
         }
 /*        passwordField.click();
